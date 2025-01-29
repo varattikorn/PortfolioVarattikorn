@@ -170,7 +170,7 @@ a {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
     color: transparent;
     border: 2px solid rgb(255, 255, 255);
-    width: 100px;
+    width: 80px;
     height: 28px;
     border-radius: 50px;
     margin-left: 30px;
@@ -190,7 +190,7 @@ a {
   .box-model2 {
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
     color: transparent;
-    width: 100px;
+    width: 80px;
     height: 32px;
     border-radius: 50px;
     margin-left: 10px;
@@ -210,7 +210,7 @@ a {
   .box-model3 {
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
     color: transparent;
-    width: 100px;
+    width: 80px;
     height: 32px;
     border-radius: 50px;
     margin-left: 10px;
@@ -233,7 +233,7 @@ a {
  .box-model11 {
   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
   color: transparent;
-  width: 100px;
+  width: 80px;
   height: 32px;
   border-radius: 50px;
   margin-left: 30px;
@@ -254,7 +254,7 @@ a {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
   color: transparent;
   border: 2px solid rgb(255, 255, 255);
-  width: 100px;
+  width: 80px;
   height: 28px;
   border-radius: 50px;
   margin-left: 10px;
@@ -274,7 +274,7 @@ a {
 .box-model33 {
   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
   color: transparent;
-  width: 100px;
+  width: 80px;
   height: 32px;
   border-radius: 50px;
   margin-left: 10px;
@@ -297,7 +297,7 @@ a {
  .box-model111 {
   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
   color: transparent;
-  width: 100px;
+  width: 80px;
   height: 32px;
   border-radius: 50px;
   margin-left: 30px;
@@ -317,7 +317,7 @@ a {
 .box-model222 {
   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
   color: transparent;
-  width: 100px;
+  width: 80px;
   height: 32px;
   border-radius: 50px;
   margin-left: 10px;
@@ -338,7 +338,7 @@ a {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
   color: transparent;
   border: 2px solid rgb(255, 255, 255);
-  width: 100px;
+  width: 80px;
   height: 28px;
   border-radius: 50px;
   margin-left: 10px;
