@@ -133,6 +133,35 @@
     color: #ffffff;
   }
 
+  
+  /*----------------------------------------*/
+  .box-modelx:hover {
+    background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
+    color: #ffffff;
+  }
+  .box-modelc:hover {
+    background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
+    color: #ffffff;
+  }
+  /*----------------------------------------*/
+  .box-modelzz:hover {
+    background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
+    color: #ffffff;
+  }
+  .box-modelcc:hover {
+    background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
+    color: #ffffff;
+  }
+  /*----------------------------------------*/
+  .box-modelzzz:hover {
+    background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
+    color: #ffffff;
+  }
+  .box-modelxxx:hover {
+    background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
+    color: #ffffff;
+  }
+
 
   .containerpor {
     display: flex;

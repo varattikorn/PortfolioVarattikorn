@@ -36,6 +36,12 @@ background-clip: text;
 line-height: 1;
 }
 
+@media(min-width: 1050px) {
+  .text-headper {
+    margin-bottom: 280px;
+  }
+}
+
 /*----------------------------------------*/
 .main-text {
 display: flex;

@@ -166,6 +166,18 @@ a {
   }
 
   /*----------------------------------------*/
+  @media(min-width: 1050px) {
+    .box-model {
+      margin-bottom: 180px;
+    }
+    .box-model22 {
+      margin-bottom: 180px;
+    }
+    .box-model333 {
+      margin-bottom: 180px;
+    }
+  }
+
   .box-model {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
     color: transparent;
@@ -355,6 +367,207 @@ a {
   align-items: center; 
 }
 
+ /*----------------------------------------*/
+ @media(min-width: 1050px) {
+  .box-modelz {
+    margin-bottom: 80px;
+  }
+  .box-modelxx {
+    margin-bottom: 80px;
+  }
+  .box-modelccc {
+    margin-bottom: 80px;
+  }
+}
+
+.box-modelz {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
+  color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  width: 80px;
+  height: 28px;
+  border-radius: 50px;
+  margin-left: 30px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 2px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.box-modelx {
+  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+  color: transparent;
+  width: 80px;
+  height: 32px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 2px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.box-modelc {
+  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+  color: transparent;
+  width: 80px;
+  height: 32px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 2px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+.box-modelzz {
+background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+color: transparent;
+width: 80px;
+height: 32px;
+border-radius: 50px;
+margin-left: 30px;
+margin-top: 0px;
+text-align: center;
+padding: 2px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+text-decoration: none;
+color: #000000;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+.box-modelxx {
+background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
+color: transparent;
+border: 2px solid rgb(255, 255, 255);
+width: 80px;
+height: 28px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 0px;
+text-align: center;
+padding: 2px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+text-decoration: none;
+color: #ffffff;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+.box-modelcc {
+background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+color: transparent;
+width: 80px;
+height: 32px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 0px;
+text-align: center;
+padding: 2px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+text-decoration: none;
+color: #000000;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+.box-modelzzz {
+background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+color: transparent;
+width: 80px;
+height: 32px;
+border-radius: 50px;
+margin-left: 30px;
+margin-top: 0px;
+text-align: center;
+padding: 2px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+text-decoration: none;
+color: #000000;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+.box-modelxxx {
+background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+color: transparent;
+width: 80px;
+height: 32px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 0px;
+text-align: center;
+padding: 2px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+text-decoration: none;
+color: #000000;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+.box-modelccc {
+background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
+color: transparent;
+border: 2px solid rgb(255, 255, 255);
+width: 80px;
+height: 28px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 0px;
+text-align: center;
+padding: 2px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+text-decoration: none;
+color: #ffffff;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
 
 /*----------------------------------------*/
  .text-model-s {
@@ -445,12 +658,28 @@ a {
     background-color: #000;
     margin-top: 30px;
 
+    & span {
+      display: flex;
+      justify-content:flex-start;
+      align-items:flex-start;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      font-family: Inter;
+      font-size: 11px;
+      font-weight: 600;
+      background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+      color: transparent;
+      background-clip: text;
+      z-index: 5;
+    }
+
   & p {
     display: flex;
     justify-content:flex-start;
     align-items:flex-start;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0;
     font-family: Inter;
     font-size: 20px;
@@ -687,19 +916,7 @@ nav a:hover {
 }
 
 /*----------------------------------------*/
-@media(max-width: 1050px) {
-  .hideOnMoblie {
-    display: none;
-  }
-  .menu-button {
-    display: block;
-  }
-  nav {
-    height: 40px;
-    width: 100%;
-  }
-}
-/*----------------------------------------*/
+
 .box-modelq {
   background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
   color: transparent;
@@ -728,3 +945,19 @@ nav a:hover {
   background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
   color: #ffffff;
 }
+
+/*-----------------com-----------------------*/
+@media(max-width: 1050px) {
+  .hideOnMoblie {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  nav {
+    height: 40px;
+    width: 100%;
+  }
+}
+
+/*----------------------------------------*/
