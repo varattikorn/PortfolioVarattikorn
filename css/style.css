@@ -66,6 +66,12 @@
       -webkit-mask-image: linear-gradient(black 50%,transparent 100%);
       mask-image: linear-gradient(black 50%,transparent 100%);
   }
+  @media(min-width: 1000px) {
+    .image-me {
+      width: 400px;
+    }
+  }
+
 
 /*----------------------------------------*/
     .font-head {
@@ -78,6 +84,13 @@
       color: transparent;
       background-clip: text;
     }
+
+    @media(min-width: 1000px) {
+      .font-head {
+        font-size: 80px;
+      }
+    }
+  
 /*----------------------------------------*/
 .font-head2 {
   margin-top: 15px;
@@ -88,6 +101,12 @@
   background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
   color: transparent;
   background-clip: text;
+}
+
+@media(min-width: 1000px) {
+  .font-head2 {
+    font-size: 20px;
+  }
 }
 
 /*----------------------------------------*/
@@ -108,7 +127,18 @@ a {
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  
 }
+@media(min-width: 1000px) {
+  .box-head {
+    font-size: 12px;
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+  }
+}
+
+
 
 .box-head2 {
   margin-top: 5px;
