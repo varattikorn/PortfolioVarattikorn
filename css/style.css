@@ -1146,3 +1146,52 @@ nav a:hover {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+
+.boxlink {
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
+  color: transparent;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 2px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.boxlink:hover {
+  background-image: linear-gradient(to right, rgb(65, 65, 65) , rgb(65, 65, 65));
+  color: #ffffff;
+}
+
+.boxlink2 {
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
+  color: transparent;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 2px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.boxlink2:hover {
+  background-image: linear-gradient(to right, rgb(65, 65, 65) , rgb(65, 65, 65));
+  color: #ffffff;
+}
