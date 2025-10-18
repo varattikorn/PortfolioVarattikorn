@@ -1,0 +1,191 @@
+.container-footerMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+    background-color: #000000;
+}
+
+
+ .container-footerR {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5px;
+    background-color: #000;
+    margin-top: 30px;
+
+    & span {
+      display: flex;
+      justify-content:flex-start;
+      align-items:flex-start;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      font-family: Inter;
+      font-size: 11px;
+      font-weight: 600;
+      background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+      color: transparent;
+      background-clip: text;
+      z-index: 5;
+    }
+
+  & p {
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+    color: transparent;
+    background-clip: text;
+    z-index: 5;
+  }
+
+  & div {
+    font-family: Inter;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+    & img {
+      width: 30px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-right: 5px;
+    }
+  }
+}
+
+
+
+.container-footerAR {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 10px;
+
+    & p {
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 600;
+        background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+        color: transparent;
+        background-clip: text;
+        z-index: 5;
+      }
+    
+      & div {
+        font-family: Inter;
+        text-decoration: none;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 5px;
+        margin-left: 20px;
+        text-decoration: none;
+
+        & a {
+            color: rgb(176, 176, 176);
+            text-decoration: none;
+            font-family: Kanit;
+            font-size: 12px;
+        }
+
+        & a:hover {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+      }
+}
+
+
+
+
+@media(max-width: 1050px) {
+    .container-footerF {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 0;
+    }
+    .container-footerAR {
+        margin-top: 15px;
+
+ 
+        & p {
+            display: flex;
+            justify-content:flex-start;
+            align-items:flex-start;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: Inter;
+            font-size: 17px;
+            font-weight: 600;
+            background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+            color: transparent;
+            background-clip: text;
+            z-index: 5;
+          }
+
+          & div {
+            font-family: Inter;
+            text-decoration: none;
+            font-size: 12px;
+            color: #ffffff;
+            margin-top: 5px;
+            margin-left: 20px;
+            text-decoration: none;
+    
+            & a {
+                color: rgb(176, 176, 176);
+                text-decoration: none;
+                font-family: Kanit;
+                font-size: 12px;
+            }
+    
+            & a:hover {
+                text-decoration: underline;
+                color: rgb(255, 255, 255);
+            }
+          }
+        
+    }
+
+}
+
+.container-footerARR {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    gap: 15px;
+}
+
+.copylightsMain {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 9px;
+}

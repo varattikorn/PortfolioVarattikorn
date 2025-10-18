@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Prompt:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.containerZ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.containerZ2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 15px;
+}
+
+
+.boxbg {
+    width: 380px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgb(203, 203, 203);   
+}
+
+@media(max-width: 1050px) {
+    .boxbg {
+        width: 340px;
+        height: 180px;
+        margin-top: 20px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter:blur(10px);
+        backdrop-filter: blur(10px); 
+        border: 1px solid rgb(203, 203, 203);   
+    }
+    }
+    
+
+.boxbg:hover {
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 2px;
+    outline-offset: 5px;
+}
+
+.boxbg2 {
+    width: 380px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgb(152, 152, 152);
+}
+
+.container-footer2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    gap: 15px;
+}
+
+.copylights {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 9px;
+}
+
+.boxapp {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 28px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.text-main {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: Poppins;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text-l {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: Prompt;
+    color: white;
+    font-size: 18px;
+}
+
+.button {
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+@media(max-width: 1050px) {
+    .button {
+        margin-left: 240px;
+        margin-top: 20px;
+    }
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 10px;
+
+  & p {
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+    color: transparent;
+    background-clip: text;
+    z-index: 5;
+  }
+
+  & div {
+    font-family: Inter;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+    & img {
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-right: 5px;
+    }
+  }
+}
+
+
+.container-footerF {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+    background-color: #000000;
+}
+
+.container-footerA {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 10px;
+
+    & p {
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 600;
+        background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+        color: transparent;
+        background-clip: text;
+        z-index: 5;
+      }
+    
+      & div {
+        font-family: Inter;
+        text-decoration: none;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 5px;
+        margin-left: 20px;
+        text-decoration: none;
+
+        & a {
+            color: rgb(176, 176, 176);
+            text-decoration: none;
+            font-family: Kanit;
+            font-size: 12px;
+        }
+
+        & a:hover {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+      }
+}
+
+
+
+
+@media(max-width: 1050px) {
+    .container-footerF {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 0;
+    }
+    .container-footerA {
+        margin-top: 15px;
+
+ 
+        & p {
+            display: flex;
+            justify-content:flex-start;
+            align-items:flex-start;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: Inter;
+            font-size: 17px;
+            font-weight: 600;
+            background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
+            color: transparent;
+            background-clip: text;
+            z-index: 5;
+          }
+
+          & div {
+            font-family: Inter;
+            text-decoration: none;
+            font-size: 12px;
+            color: #ffffff;
+            margin-top: 5px;
+            margin-left: 20px;
+            text-decoration: none;
+    
+            & a {
+                color: rgb(176, 176, 176);
+                text-decoration: none;
+                font-family: Kanit;
+                font-size: 12px;
+            }
+    
+            & a:hover {
+                text-decoration: underline;
+                color: rgb(255, 255, 255);
+            }
+          }
+        
+    }
+
+}
+
+
+.image-icon {
+    width: 40px;
+    
+}
+
+.container-footerF2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+    background-color: #000000;
+}

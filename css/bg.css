@@ -1,0 +1,132 @@
+.bodynext {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bggalaxy.png");
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*----------------------------------------*/
+.wrapper {
+    max-height: 220px;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;                 
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 25px;
+  }
+  
+  .wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .item {
+    min-width: 175px;
+    height: 50px;
+    line-height: 0px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 17, 255) , rgb(255, 0, 72));
+    color: transparent;
+    margin-right: 8px;
+    border-radius: 13px;
+  }
+
+  .textitem {
+    color: rgb(255, 255, 255);
+    font-family: Kanit;
+    font-size: 20px;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .imagescroll {
+    width: 180px;
+    border-radius: 15px;
+  }
+  
+
+  .containerWrap {
+        width: 100%;
+        margin: auto;
+        height: 80px;
+    
+    }
+    @media only screen and (min-width: 576px) {
+        .container2 {
+            width: 540px;
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        .container2 {
+            width: 1140px;
+        }
+        .wrapper {
+            margin-left: 24%;
+        }
+    }
+
+    .containerHtext {
+        width: 92%;
+        margin: auto;
+        height: 6%;
+    
+    }
+    @media only screen and (min-width: 576px) {
+        .containerHtext {
+            width: 540px;
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        .containerHtext {
+            width: 1140px;
+        }
+    }
+
+    .boxtextvision {
+        width: 100%;
+        height: 450px;
+        background-color: #000000;
+        border-radius: 18px;
+        margin-bottom: 10px;
+      }
+
+      .containerSubVision {
+        width: 88%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 1px;
+      }
+
+
+
+      .imagleft {
+        height: 100vw;
+    }
+    @media(min-width: 1050px) {
+        .imagleft {
+            height: 37vw;
+        }
+      }
+
+      .containerHeadV {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
